@@ -1,0 +1,1240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CA0A7C89D5D812F433A82B02C5C59FF /* FBShimmering.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ADE14E7F23777173424CDEC787AAD6 /* FBShimmering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1270EECDE2511B18EEAE4C367091CD /* Pods-GHKFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B460AAB1D180D91DFB2D925939A3714D /* Pods-GHKFont-dummy.m */; };
+		136B08045E5235164F23AE111395F2CA /* UIColor+GBFlatButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CA106DACF020F5108CD54EFDB6C0CCEF /* UIColor+GBFlatButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		140797F8D77FAD6AFCD137C02D5FC589 /* Pods-GHKFontUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A64055F9F192C4BDA8DDA774479BEE05 /* Pods-GHKFontUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E6E0C4226BCB68DAC36641BBCA1BDBA /* GBFlatSelectableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AC891B031ACA913EFE481EEBB1258967 /* GBFlatSelectableButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		21395005A09E7959C092583012A1AD80 /* ZHPopupView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AE6B838600C5927BCB4FDC7AADF8BA /* ZHPopupView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24D9767B6112109AA400DECD39808A65 /* GBFlatButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A25C7F022BC69C804F1174C81E20A9F4 /* GBFlatButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29A96DFE46E603E0E9471174140AEE3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		326BA2BE63BC1DC3A87C6630400DE707 /* FBShimmeringLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A4DBEF6CFB7AB13603BAFF86FACD6E /* FBShimmeringLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34B35F8C40A585B2D997DCBDA7B17D3A /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81940E312B70F950F28719FEEC948C57 /* FBShimmeringView.m */; };
+		43CA1451F946A3BAA0CE8C64917BC699 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAECC1990669564FB6C371A11A70694 /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48CF7E9E1E5E7C4283604C2A25EBA9CC /* Pods-GHKFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7F2FBF872A0EB13CDDC11BBE2AD098 /* Pods-GHKFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A253BD13D6ED225B64C09C07C256BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		4FD4D17359464788FA912E797EDD0425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		53D447FFD50C90F1363776ACE746C518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		5F82BC54963D73FFBE9C1C3F10E70095 /* UIView+DropShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = 732B46491C9346D7ABE185E638EE62AA /* UIView+DropShadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FAF8B00F348ADF5C1A5C25CB5A97401 /* GBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BE67B7FBF7BC925474CB7537A5211F /* GBFlatButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		66DE5725B3A141DC2253B5D57CCC4551 /* Shimmer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9572B20ADCD77EA57A58B1C26CE6A333 /* Shimmer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BE1721F1E3A8473EE711315C5429CBA /* GBFlatSelectableButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B06AA8B6A22AB71147B6A571BD7838F /* GBFlatSelectableButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DAFC3B7ABD7830F37C9697118AFC159 /* UIView+DropShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0FDCC5A2E7FBA923C28E9668F8620 /* UIView+DropShadow.m */; };
+		85394E20917BB332F2C859569D53A0A7 /* UIImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C32790531F5D38035B6E73603862D99 /* UIImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9769497A8CB3B874FE05B65D87353657 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		A53AD7A554D8C08D948DC2E01287B7D9 /* ZHPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4ABE6D53DF74753E44F833DDC9F5AF /* ZHPopupView.m */; };
+		AEBF61A7892C88892EF5283AB4DBA037 /* ZHPopupView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8223706C055656638BA8D560D76B78D /* ZHPopupView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB882246A00F7A3884F2AB9E8ADBE2D6 /* Pods-GHKFontUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2442B52789A4AE3EF3331BE312FD8E33 /* Pods-GHKFontUITests-dummy.m */; };
+		BD11A95A01B82B8DFE096C35352503FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		BEAF3D5A8B65A6CFDD6E7AE2D1F517AA /* Shimmer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7B4C174A344F4B59B57A8A9D1194D5 /* Shimmer-dummy.m */; };
+		BEC136F7D563460730149C6DE89CBDB5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
+		C033F4DCC598FE9BDB9805E50CC8DD42 /* ZHPopupView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E77807070E8B3ACEA9E340CF51C45C08 /* ZHPopupView-dummy.m */; };
+		D0EFFC41862BB245DEA49FB50794ABFE /* GBFlatButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E00B7A0386B463D4050E3794276516 /* GBFlatButton-dummy.m */; };
+		D57FE194E88172D40BADE4F35F88D0CF /* Pods-GHKFontTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E698F0EE1DF2A15FBE9B43FCF41D03E5 /* Pods-GHKFontTests-dummy.m */; };
+		DBEEA30D0834FD8E1C17F9B3E51BD506 /* GBFlatButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC580E1BAE1553BBD7982FDA7DE8768 /* GBFlatButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC6B3C1CA4E68E6EDBD1A6E1B1B3A032 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4E47B99476200D70C8B5339C0C5BF9 /* UIColor+HexString.m */; };
+		ED82B80BC6B641352780D45981A06DCB /* FBShimmeringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 645041CAA2A6B67267FCEAF8D298B12F /* FBShimmeringView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00D8C5FBB333113376A81B953499C4C /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5E9F7864B296003848CA69AFF20029 /* UIImageEffects.m */; };
+		F89DC62148CBF719E9F2075F2BB28D72 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A7B86361D1C45F5367C8BE3392BBC3 /* FBShimmeringLayer.m */; };
+		FD0B3C53DFCA447EE644B7E4CEC9FD05 /* Pods-GHKFontTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FBB5EA904F6F060FB8D56260CAAD657 /* Pods-GHKFontTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF85DCF3D02BCDBEBAFD0F840583BE9A /* UIColor+GBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 290D60FA165FD338162589CBCC7E5D41 /* UIColor+GBFlatButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		175DAD85CAA99411EC87224887C946B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3A2BB295ECC19FCD27BAE8E645C3E1B;
+			remoteInfo = ZHPopupView;
+		};
+		536FA32D5503168AE71ECBB753BDE340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50543DB8DD0E19357856AC646C42B3D5;
+			remoteInfo = GBFlatButton;
+		};
+		9A0DEF2B629124B8652871135469ED46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EC38F663F5943E8292860D873C5A88;
+			remoteInfo = Shimmer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027D212E7A6D1141975FCE55367AB240 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044A46588ABD498C2C944192B8406B5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052DBEF3B95CFF847E8FFCA965F373EF /* Pods-GHKFontUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHKFontUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B443276CF9CA8BC9C7F75D332A5AA59 /* ZHPopupView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHPopupView.xcconfig; sourceTree = "<group>"; };
+		120B39FC7753915FBDE6B18246047786 /* Pods_GHKFontUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GHKFontUITests.framework; path = "Pods-GHKFontUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		148BB826915C3BA9D22A7A4CB26D1733 /* GBFlatButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GBFlatButton.framework; path = GBFlatButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C2B62C49BC4E3DC51568FF86948085 /* Pods-GHKFontUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHKFontUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		23970A7CD373E188B52F2E799E017B50 /* GBFlatButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBFlatButton-prefix.pch"; sourceTree = "<group>"; };
+		2442B52789A4AE3EF3331BE312FD8E33 /* Pods-GHKFontUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHKFontUITests-dummy.m"; sourceTree = "<group>"; };
+		290D60FA165FD338162589CBCC7E5D41 /* UIColor+GBFlatButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+GBFlatButton.m"; path = "Classes/objc/UIColor+GBFlatButton.m"; sourceTree = "<group>"; };
+		2F20FC106EA10F0A58D3394418A513FF /* Pods-GHKFontTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHKFontTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E18EBFBBC34CB5CBF38B7E6B3EE983D /* Pods-GHKFontTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHKFontTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E1C127A39C4B3EAB3D8081E443EA82C /* Pods-GHKFontTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHKFontTests-frameworks.sh"; sourceTree = "<group>"; };
+		3E66EDD5371587A88F9CF228E6D68DDF /* Pods_GHKFontTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GHKFontTests.framework; path = "Pods-GHKFontTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4426A09FF31657B85F01381C11054F45 /* ZHPopupView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZHPopupView.modulemap; sourceTree = "<group>"; };
+		4CA20B302F9C96532D2ACD7C58490FE9 /* Shimmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Shimmer.framework; path = Shimmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBB5EA904F6F060FB8D56260CAAD657 /* Pods-GHKFontTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GHKFontTests-umbrella.h"; sourceTree = "<group>"; };
+		52349BCCC8C3649D6506E1F73CED3258 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3AB251566BAD53186B341A399D0BBD /* Pods-GHKFont-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHKFont-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A9E99F8A3FF368270DBDCB99A853540 /* Pods-GHKFontUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHKFontUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5DAECC1990669564FB6C371A11A70694 /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "ZHPopupView/Classes/ZHPopupView/UIColor+HexString.h"; sourceTree = "<group>"; };
+		645041CAA2A6B67267FCEAF8D298B12F /* FBShimmeringView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmeringView.h; path = FBShimmering/FBShimmeringView.h; sourceTree = "<group>"; };
+		6A7B4C174A344F4B59B57A8A9D1194D5 /* Shimmer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Shimmer-dummy.m"; sourceTree = "<group>"; };
+		6C32790531F5D38035B6E73603862D99 /* UIImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIImageEffects.h; path = ZHPopupView/Classes/ZHPopupView/UIImageEffects.h; sourceTree = "<group>"; };
+		6C7F2FBF872A0EB13CDDC11BBE2AD098 /* Pods-GHKFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GHKFont-umbrella.h"; sourceTree = "<group>"; };
+		7128AFCFD722C0F17DD9795977E6DA1A /* Pods-GHKFontUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GHKFontUITests.modulemap"; sourceTree = "<group>"; };
+		72DBCAA014EF6CA54AC23C912F89910F /* Pods-GHKFontTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHKFontTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		732B46491C9346D7ABE185E638EE62AA /* UIView+DropShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DropShadow.h"; path = "ZHPopupView/Classes/ZHPopupView/UIView+DropShadow.h"; sourceTree = "<group>"; };
+		7ADAA272AFDE7E9B4631FFE1587BA3AF /* Pods-GHKFontUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHKFontUITests-resources.sh"; sourceTree = "<group>"; };
+		7B06AA8B6A22AB71147B6A571BD7838F /* GBFlatSelectableButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBFlatSelectableButton.h; path = Classes/objc/GBFlatSelectableButton.h; sourceTree = "<group>"; };
+		7CC580E1BAE1553BBD7982FDA7DE8768 /* GBFlatButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBFlatButton.h; path = Classes/objc/GBFlatButton.h; sourceTree = "<group>"; };
+		81940E312B70F950F28719FEEC948C57 /* FBShimmeringView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringView.m; path = FBShimmering/FBShimmeringView.m; sourceTree = "<group>"; };
+		86864020AF0EA0294F6FFC3E199893D6 /* ZHPopupView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHPopupView-prefix.pch"; sourceTree = "<group>"; };
+		8B710F40F0F9758F8D7584E2589B7FAA /* Pods-GHKFontTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GHKFontTests.modulemap"; sourceTree = "<group>"; };
+		8D821F36B8B935D4E7BE5083CE1874A3 /* GBFlatButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GBFlatButton.modulemap; sourceTree = "<group>"; };
+		90A7B86361D1C45F5367C8BE3392BBC3 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringLayer.m; path = FBShimmering/FBShimmeringLayer.m; sourceTree = "<group>"; };
+		90FE6477E95B999997EAFC4C92C1351C /* Pods-GHKFont-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHKFont-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		943E29C45A37F901A53DADE60D28A7EE /* Pods-GHKFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHKFont.release.xcconfig"; sourceTree = "<group>"; };
+		9572B20ADCD77EA57A58B1C26CE6A333 /* Shimmer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Shimmer-umbrella.h"; sourceTree = "<group>"; };
+		9725D53DD1BFE697A7E8D9D2FABB1ECD /* Pods_GHKFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GHKFont.framework; path = "Pods-GHKFont.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B5555A117A15ACD8F771A98A10B863 /* Shimmer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Shimmer.xcconfig; sourceTree = "<group>"; };
+		9D4E47B99476200D70C8B5339C0C5BF9 /* UIColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexString.m"; path = "ZHPopupView/Classes/ZHPopupView/UIColor+HexString.m"; sourceTree = "<group>"; };
+		A25C7F022BC69C804F1174C81E20A9F4 /* GBFlatButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBFlatButton-umbrella.h"; sourceTree = "<group>"; };
+		A64055F9F192C4BDA8DDA774479BEE05 /* Pods-GHKFontUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GHKFontUITests-umbrella.h"; sourceTree = "<group>"; };
+		AC891B031ACA913EFE481EEBB1258967 /* GBFlatSelectableButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBFlatSelectableButton.m; path = Classes/objc/GBFlatSelectableButton.m; sourceTree = "<group>"; };
+		B0BE67B7FBF7BC925474CB7537A5211F /* GBFlatButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBFlatButton.m; path = Classes/objc/GBFlatButton.m; sourceTree = "<group>"; };
+		B1B0FDCC5A2E7FBA923C28E9668F8620 /* UIView+DropShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DropShadow.m"; path = "ZHPopupView/Classes/ZHPopupView/UIView+DropShadow.m"; sourceTree = "<group>"; };
+		B460AAB1D180D91DFB2D925939A3714D /* Pods-GHKFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHKFont-dummy.m"; sourceTree = "<group>"; };
+		BA802425C8775FFF5D9AA36C938683FF /* Pods-GHKFontUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHKFontUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C2A4DBEF6CFB7AB13603BAFF86FACD6E /* FBShimmeringLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmeringLayer.h; path = FBShimmering/FBShimmeringLayer.h; sourceTree = "<group>"; };
+		C5E00B7A0386B463D4050E3794276516 /* GBFlatButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBFlatButton-dummy.m"; sourceTree = "<group>"; };
+		C67D37FD1CA6746BFB68DEE0012B5852 /* Pods-GHKFont-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHKFont-resources.sh"; sourceTree = "<group>"; };
+		C78A220821DE7530A409FD4509095275 /* Pods-GHKFontTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHKFontTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C80FDB6144AA02FB01D60EF16A1AD6F6 /* GBFlatButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBFlatButton.xcconfig; sourceTree = "<group>"; };
+		C8ADE14E7F23777173424CDEC787AAD6 /* FBShimmering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBShimmering.h; path = FBShimmering/FBShimmering.h; sourceTree = "<group>"; };
+		CA106DACF020F5108CD54EFDB6C0CCEF /* UIColor+GBFlatButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+GBFlatButton.h"; path = "Classes/objc/UIColor+GBFlatButton.h"; sourceTree = "<group>"; };
+		CAAE73B0F40F9DA139C4680356ADD9F9 /* Pods-GHKFontTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHKFontTests-resources.sh"; sourceTree = "<group>"; };
+		CB4ABE6D53DF74753E44F833DDC9F5AF /* ZHPopupView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHPopupView.m; path = ZHPopupView/Classes/ZHPopupView/ZHPopupView.m; sourceTree = "<group>"; };
+		CCD5248A3D997EB1787DA8A179253776 /* Pods-GHKFontUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHKFontUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CCE3B7884C34BCA5261A48D9B09E7413 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D7428301280040EF7EBD6DD32079ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8AE6B838600C5927BCB4FDC7AADF8BA /* ZHPopupView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHPopupView-umbrella.h"; sourceTree = "<group>"; };
+		DB5E9F7864B296003848CA69AFF20029 /* UIImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIImageEffects.m; path = ZHPopupView/Classes/ZHPopupView/UIImageEffects.m; sourceTree = "<group>"; };
+		DC8E7E5146B2F14264430C3F7A6AE9CA /* Shimmer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Shimmer.modulemap; sourceTree = "<group>"; };
+		E209C9D893B1262BD8FFABB9764FF71F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2709123706243F1289FF367E1866F81 /* Pods-GHKFont-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHKFont-acknowledgements.plist"; sourceTree = "<group>"; };
+		E44983BF8D74D8FE15611ABC22079BED /* Pods-GHKFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHKFont.debug.xcconfig"; sourceTree = "<group>"; };
+		E698F0EE1DF2A15FBE9B43FCF41D03E5 /* Pods-GHKFontTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHKFontTests-dummy.m"; sourceTree = "<group>"; };
+		E77807070E8B3ACEA9E340CF51C45C08 /* ZHPopupView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHPopupView-dummy.m"; sourceTree = "<group>"; };
+		EC4A125EEA64592E7B7384FE1209BA2A /* ZHPopupView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZHPopupView.framework; path = ZHPopupView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F076DDF096427BD5DEBC5FEDDCC5C307 /* Pods-GHKFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GHKFont.modulemap"; sourceTree = "<group>"; };
+		F8223706C055656638BA8D560D76B78D /* ZHPopupView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHPopupView.h; path = ZHPopupView/Classes/ZHPopupView/ZHPopupView.h; sourceTree = "<group>"; };
+		FB4037E0CEC5B246A1D4B6E2D99A0BFD /* Shimmer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Shimmer-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FAC788E37952E96A37760BC2B560D5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9769497A8CB3B874FE05B65D87353657 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44405E148D3E221EB251BBBC944E455D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A96DFE46E603E0E9471174140AEE3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E168D268F23C8C1F4495231E27FA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A253BD13D6ED225B64C09C07C256BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4BCC44A48396A2A7C046066C7F64FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD4D17359464788FA912E797EDD0425 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615F3521641A55EEF06EAAF942319C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D447FFD50C90F1363776ACE746C518 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0D7FFF38716C588EFE6CBD9D795C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD11A95A01B82B8DFE096C35352503FB /* Foundation.framework in Frameworks */,
+				BEC136F7D563460730149C6DE89CBDB5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B3304C96F0FA8C80EBC4F2D819F5DD6 /* Pods-GHKFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				52349BCCC8C3649D6506E1F73CED3258 /* Info.plist */,
+				8B710F40F0F9758F8D7584E2589B7FAA /* Pods-GHKFontTests.modulemap */,
+				C78A220821DE7530A409FD4509095275 /* Pods-GHKFontTests-acknowledgements.markdown */,
+				72DBCAA014EF6CA54AC23C912F89910F /* Pods-GHKFontTests-acknowledgements.plist */,
+				E698F0EE1DF2A15FBE9B43FCF41D03E5 /* Pods-GHKFontTests-dummy.m */,
+				3E1C127A39C4B3EAB3D8081E443EA82C /* Pods-GHKFontTests-frameworks.sh */,
+				CAAE73B0F40F9DA139C4680356ADD9F9 /* Pods-GHKFontTests-resources.sh */,
+				4FBB5EA904F6F060FB8D56260CAAD657 /* Pods-GHKFontTests-umbrella.h */,
+				2F20FC106EA10F0A58D3394418A513FF /* Pods-GHKFontTests.debug.xcconfig */,
+				3E18EBFBBC34CB5CBF38B7E6B3EE983D /* Pods-GHKFontTests.release.xcconfig */,
+			);
+			name = "Pods-GHKFontTests";
+			path = "Target Support Files/Pods-GHKFontTests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7AB6F27FF3606F9360547F8F1977A63 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47F1828E94BAD1149BD520140F340FBA /* ZHPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				5DAECC1990669564FB6C371A11A70694 /* UIColor+HexString.h */,
+				9D4E47B99476200D70C8B5339C0C5BF9 /* UIColor+HexString.m */,
+				6C32790531F5D38035B6E73603862D99 /* UIImageEffects.h */,
+				DB5E9F7864B296003848CA69AFF20029 /* UIImageEffects.m */,
+				732B46491C9346D7ABE185E638EE62AA /* UIView+DropShadow.h */,
+				B1B0FDCC5A2E7FBA923C28E9668F8620 /* UIView+DropShadow.m */,
+				F8223706C055656638BA8D560D76B78D /* ZHPopupView.h */,
+				CB4ABE6D53DF74753E44F833DDC9F5AF /* ZHPopupView.m */,
+				75AD07DBF8A3526AB0039128B0765A50 /* Support Files */,
+			);
+			name = ZHPopupView;
+			path = ZHPopupView;
+			sourceTree = "<group>";
+		};
+		51FA7F47107366CAA2B984FA0D5A2FF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D821F36B8B935D4E7BE5083CE1874A3 /* GBFlatButton.modulemap */,
+				C80FDB6144AA02FB01D60EF16A1AD6F6 /* GBFlatButton.xcconfig */,
+				C5E00B7A0386B463D4050E3794276516 /* GBFlatButton-dummy.m */,
+				23970A7CD373E188B52F2E799E017B50 /* GBFlatButton-prefix.pch */,
+				A25C7F022BC69C804F1174C81E20A9F4 /* GBFlatButton-umbrella.h */,
+				044A46588ABD498C2C944192B8406B5D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GBFlatButton";
+			sourceTree = "<group>";
+		};
+		6D4D6247E3CDCEC2803A2FE6C884F247 /* Pods-GHKFont */ = {
+			isa = PBXGroup;
+			children = (
+				D0D7428301280040EF7EBD6DD32079ED /* Info.plist */,
+				F076DDF096427BD5DEBC5FEDDCC5C307 /* Pods-GHKFont.modulemap */,
+				5A3AB251566BAD53186B341A399D0BBD /* Pods-GHKFont-acknowledgements.markdown */,
+				E2709123706243F1289FF367E1866F81 /* Pods-GHKFont-acknowledgements.plist */,
+				B460AAB1D180D91DFB2D925939A3714D /* Pods-GHKFont-dummy.m */,
+				90FE6477E95B999997EAFC4C92C1351C /* Pods-GHKFont-frameworks.sh */,
+				C67D37FD1CA6746BFB68DEE0012B5852 /* Pods-GHKFont-resources.sh */,
+				6C7F2FBF872A0EB13CDDC11BBE2AD098 /* Pods-GHKFont-umbrella.h */,
+				E44983BF8D74D8FE15611ABC22079BED /* Pods-GHKFont.debug.xcconfig */,
+				943E29C45A37F901A53DADE60D28A7EE /* Pods-GHKFont.release.xcconfig */,
+			);
+			name = "Pods-GHKFont";
+			path = "Target Support Files/Pods-GHKFont";
+			sourceTree = "<group>";
+		};
+		731EBC30D9B5356DE49746FC1C15773A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				148BB826915C3BA9D22A7A4CB26D1733 /* GBFlatButton.framework */,
+				9725D53DD1BFE697A7E8D9D2FABB1ECD /* Pods_GHKFont.framework */,
+				3E66EDD5371587A88F9CF228E6D68DDF /* Pods_GHKFontTests.framework */,
+				120B39FC7753915FBDE6B18246047786 /* Pods_GHKFontUITests.framework */,
+				4CA20B302F9C96532D2ACD7C58490FE9 /* Shimmer.framework */,
+				EC4A125EEA64592E7B7384FE1209BA2A /* ZHPopupView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75AD07DBF8A3526AB0039128B0765A50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				027D212E7A6D1141975FCE55367AB240 /* Info.plist */,
+				4426A09FF31657B85F01381C11054F45 /* ZHPopupView.modulemap */,
+				0B443276CF9CA8BC9C7F75D332A5AA59 /* ZHPopupView.xcconfig */,
+				E77807070E8B3ACEA9E340CF51C45C08 /* ZHPopupView-dummy.m */,
+				86864020AF0EA0294F6FFC3E199893D6 /* ZHPopupView-prefix.pch */,
+				D8AE6B838600C5927BCB4FDC7AADF8BA /* ZHPopupView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZHPopupView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				C45B5A11AEAD1EC329BD44B1260AB46C /* Pods */,
+				731EBC30D9B5356DE49746FC1C15773A /* Products */,
+				8B8DB4CAAA563EB5A944237DC7B4BE53 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B8DB4CAAA563EB5A944237DC7B4BE53 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D4D6247E3CDCEC2803A2FE6C884F247 /* Pods-GHKFont */,
+				2B3304C96F0FA8C80EBC4F2D819F5DD6 /* Pods-GHKFontTests */,
+				D2D586A8CAEA341F79FAC9E6F68D5E91 /* Pods-GHKFontUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8FFB60C89A0EE27F29D131D867D9B99F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE3B7884C34BCA5261A48D9B09E7413 /* Info.plist */,
+				DC8E7E5146B2F14264430C3F7A6AE9CA /* Shimmer.modulemap */,
+				98B5555A117A15ACD8F771A98A10B863 /* Shimmer.xcconfig */,
+				6A7B4C174A344F4B59B57A8A9D1194D5 /* Shimmer-dummy.m */,
+				FB4037E0CEC5B246A1D4B6E2D99A0BFD /* Shimmer-prefix.pch */,
+				9572B20ADCD77EA57A58B1C26CE6A333 /* Shimmer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Shimmer";
+			sourceTree = "<group>";
+		};
+		926EF93E1B6005DD1BEEF8931B3594FA /* GBFlatButton */ = {
+			isa = PBXGroup;
+			children = (
+				7CC580E1BAE1553BBD7982FDA7DE8768 /* GBFlatButton.h */,
+				B0BE67B7FBF7BC925474CB7537A5211F /* GBFlatButton.m */,
+				7B06AA8B6A22AB71147B6A571BD7838F /* GBFlatSelectableButton.h */,
+				AC891B031ACA913EFE481EEBB1258967 /* GBFlatSelectableButton.m */,
+				CA106DACF020F5108CD54EFDB6C0CCEF /* UIColor+GBFlatButton.h */,
+				290D60FA165FD338162589CBCC7E5D41 /* UIColor+GBFlatButton.m */,
+				51FA7F47107366CAA2B984FA0D5A2FF8 /* Support Files */,
+			);
+			name = GBFlatButton;
+			path = GBFlatButton;
+			sourceTree = "<group>";
+		};
+		C45B5A11AEAD1EC329BD44B1260AB46C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				926EF93E1B6005DD1BEEF8931B3594FA /* GBFlatButton */,
+				CEC8AA2DF320F0C3F7A3BE62F35B0314 /* Shimmer */,
+				47F1828E94BAD1149BD520140F340FBA /* ZHPopupView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7AB6F27FF3606F9360547F8F1977A63 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */,
+				BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CEC8AA2DF320F0C3F7A3BE62F35B0314 /* Shimmer */ = {
+			isa = PBXGroup;
+			children = (
+				C8ADE14E7F23777173424CDEC787AAD6 /* FBShimmering.h */,
+				C2A4DBEF6CFB7AB13603BAFF86FACD6E /* FBShimmeringLayer.h */,
+				90A7B86361D1C45F5367C8BE3392BBC3 /* FBShimmeringLayer.m */,
+				645041CAA2A6B67267FCEAF8D298B12F /* FBShimmeringView.h */,
+				81940E312B70F950F28719FEEC948C57 /* FBShimmeringView.m */,
+				8FFB60C89A0EE27F29D131D867D9B99F /* Support Files */,
+			);
+			name = Shimmer;
+			path = Shimmer;
+			sourceTree = "<group>";
+		};
+		D2D586A8CAEA341F79FAC9E6F68D5E91 /* Pods-GHKFontUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E209C9D893B1262BD8FFABB9764FF71F /* Info.plist */,
+				7128AFCFD722C0F17DD9795977E6DA1A /* Pods-GHKFontUITests.modulemap */,
+				052DBEF3B95CFF847E8FFCA965F373EF /* Pods-GHKFontUITests-acknowledgements.markdown */,
+				18C2B62C49BC4E3DC51568FF86948085 /* Pods-GHKFontUITests-acknowledgements.plist */,
+				2442B52789A4AE3EF3331BE312FD8E33 /* Pods-GHKFontUITests-dummy.m */,
+				5A9E99F8A3FF368270DBDCB99A853540 /* Pods-GHKFontUITests-frameworks.sh */,
+				7ADAA272AFDE7E9B4631FFE1587BA3AF /* Pods-GHKFontUITests-resources.sh */,
+				A64055F9F192C4BDA8DDA774479BEE05 /* Pods-GHKFontUITests-umbrella.h */,
+				BA802425C8775FFF5D9AA36C938683FF /* Pods-GHKFontUITests.debug.xcconfig */,
+				CCD5248A3D997EB1787DA8A179253776 /* Pods-GHKFontUITests.release.xcconfig */,
+			);
+			name = "Pods-GHKFontUITests";
+			path = "Target Support Files/Pods-GHKFontUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DEAF75D2F5962616352D98D887812F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CF7E9E1E5E7C4283604C2A25EBA9CC /* Pods-GHKFont-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221ECE9870604C6FA445B9D8C23F5A1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CA1451F946A3BAA0CE8C64917BC699 /* UIColor+HexString.h in Headers */,
+				85394E20917BB332F2C859569D53A0A7 /* UIImageEffects.h in Headers */,
+				5F82BC54963D73FFBE9C1C3F10E70095 /* UIView+DropShadow.h in Headers */,
+				21395005A09E7959C092583012A1AD80 /* ZHPopupView-umbrella.h in Headers */,
+				AEBF61A7892C88892EF5283AB4DBA037 /* ZHPopupView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3A2A8E364C9D272F771D411D8533E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D9767B6112109AA400DECD39808A65 /* GBFlatButton-umbrella.h in Headers */,
+				DBEEA30D0834FD8E1C17F9B3E51BD506 /* GBFlatButton.h in Headers */,
+				6BE1721F1E3A8473EE711315C5429CBA /* GBFlatSelectableButton.h in Headers */,
+				136B08045E5235164F23AE111395F2CA /* UIColor+GBFlatButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E1CB94A232EC8AC97942193EFA3274 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA0A7C89D5D812F433A82B02C5C59FF /* FBShimmering.h in Headers */,
+				326BA2BE63BC1DC3A87C6630400DE707 /* FBShimmeringLayer.h in Headers */,
+				ED82B80BC6B641352780D45981A06DCB /* FBShimmeringView.h in Headers */,
+				66DE5725B3A141DC2253B5D57CCC4551 /* Shimmer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B8EFE085CF261DF2F92388CF24CA70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0B3C53DFCA447EE644B7E4CEC9FD05 /* Pods-GHKFontTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADFB33F447F48F8196BEF34A5B1D453 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140797F8D77FAD6AFCD137C02D5FC589 /* Pods-GHKFontUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FCF72AC772F93544C6455078866F6D3 /* Pods-GHKFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42E7FB24CD93500EDBD10EE126B636C7 /* Build configuration list for PBXNativeTarget "Pods-GHKFont" */;
+			buildPhases = (
+				3971580CEF00F51DC10E0BB142F6F079 /* Sources */,
+				615F3521641A55EEF06EAAF942319C48 /* Frameworks */,
+				0DEAF75D2F5962616352D98D887812F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06A6A7B3E78C9B6F551FCD227B072B0D /* PBXTargetDependency */,
+				94EB1C0E528A42E8AEDA1F5FA8070807 /* PBXTargetDependency */,
+				F3C4CDF04B544E90CFB9AC1034534C06 /* PBXTargetDependency */,
+			);
+			name = "Pods-GHKFont";
+			productName = "Pods-GHKFont";
+			productReference = 9725D53DD1BFE697A7E8D9D2FABB1ECD /* Pods_GHKFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50543DB8DD0E19357856AC646C42B3D5 /* GBFlatButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F2C89514F4D9D5C66392AACBA70878 /* Build configuration list for PBXNativeTarget "GBFlatButton" */;
+			buildPhases = (
+				D670285677B2AD7A4C40866A4E8FE6BE /* Sources */,
+				BF0D7FFF38716C588EFE6CBD9D795C9E /* Frameworks */,
+				4C3A2A8E364C9D272F771D411D8533E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBFlatButton;
+			productName = GBFlatButton;
+			productReference = 148BB826915C3BA9D22A7A4CB26D1733 /* GBFlatButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84EC38F663F5943E8292860D873C5A88 /* Shimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3136A396EDCFDB6BF31F34DAA2F4BE4B /* Build configuration list for PBXNativeTarget "Shimmer" */;
+			buildPhases = (
+				D65C621A844329362BB13966DE716F86 /* Sources */,
+				44405E148D3E221EB251BBBC944E455D /* Frameworks */,
+				73E1CB94A232EC8AC97942193EFA3274 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shimmer;
+			productName = Shimmer;
+			productReference = 4CA20B302F9C96532D2ACD7C58490FE9 /* Shimmer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92D5CA58C47DB9D7E14A0F7C89E5BE2F /* Pods-GHKFontUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2A2DFCBF3CB894B12BAC0C1484DC6A /* Build configuration list for PBXNativeTarget "Pods-GHKFontUITests" */;
+			buildPhases = (
+				A0DD6067CB2A552C71BAFD12F46DDDDE /* Sources */,
+				3FAC788E37952E96A37760BC2B560D5D /* Frameworks */,
+				9ADFB33F447F48F8196BEF34A5B1D453 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GHKFontUITests";
+			productName = "Pods-GHKFontUITests";
+			productReference = 120B39FC7753915FBDE6B18246047786 /* Pods_GHKFontUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D57CB72A842A4F65C4C120D1B55247E6 /* Pods-GHKFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A92D73FB65B81F3FFF940D9DF83B76 /* Build configuration list for PBXNativeTarget "Pods-GHKFontTests" */;
+			buildPhases = (
+				A3D82C3AE58B7BD73C49C84A3DF9B2BA /* Sources */,
+				57E168D268F23C8C1F4495231E27FA0B /* Frameworks */,
+				82B8EFE085CF261DF2F92388CF24CA70 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GHKFontTests";
+			productName = "Pods-GHKFontTests";
+			productReference = 3E66EDD5371587A88F9CF228E6D68DDF /* Pods_GHKFontTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3A2BB295ECC19FCD27BAE8E645C3E1B /* ZHPopupView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BE7BB092F041DB8F4EB957DE97E7F92 /* Build configuration list for PBXNativeTarget "ZHPopupView" */;
+			buildPhases = (
+				C6C9D25CFB13C937A889C337A5891437 /* Sources */,
+				5A4BCC44A48396A2A7C046066C7F64FE /* Frameworks */,
+				221ECE9870604C6FA445B9D8C23F5A1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHPopupView;
+			productName = ZHPopupView;
+			productReference = EC4A125EEA64592E7B7384FE1209BA2A /* ZHPopupView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 731EBC30D9B5356DE49746FC1C15773A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50543DB8DD0E19357856AC646C42B3D5 /* GBFlatButton */,
+				1FCF72AC772F93544C6455078866F6D3 /* Pods-GHKFont */,
+				D57CB72A842A4F65C4C120D1B55247E6 /* Pods-GHKFontTests */,
+				92D5CA58C47DB9D7E14A0F7C89E5BE2F /* Pods-GHKFontUITests */,
+				84EC38F663F5943E8292860D873C5A88 /* Shimmer */,
+				F3A2BB295ECC19FCD27BAE8E645C3E1B /* ZHPopupView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3971580CEF00F51DC10E0BB142F6F079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1270EECDE2511B18EEAE4C367091CD /* Pods-GHKFont-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DD6067CB2A552C71BAFD12F46DDDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB882246A00F7A3884F2AB9E8ADBE2D6 /* Pods-GHKFontUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D82C3AE58B7BD73C49C84A3DF9B2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57FE194E88172D40BADE4F35F88D0CF /* Pods-GHKFontTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C9D25CFB13C937A889C337A5891437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6B3C1CA4E68E6EDBD1A6E1B1B3A032 /* UIColor+HexString.m in Sources */,
+				F00D8C5FBB333113376A81B953499C4C /* UIImageEffects.m in Sources */,
+				7DAFC3B7ABD7830F37C9697118AFC159 /* UIView+DropShadow.m in Sources */,
+				C033F4DCC598FE9BDB9805E50CC8DD42 /* ZHPopupView-dummy.m in Sources */,
+				A53AD7A554D8C08D948DC2E01287B7D9 /* ZHPopupView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65C621A844329362BB13966DE716F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89DC62148CBF719E9F2075F2BB28D72 /* FBShimmeringLayer.m in Sources */,
+				34B35F8C40A585B2D997DCBDA7B17D3A /* FBShimmeringView.m in Sources */,
+				BEAF3D5A8B65A6CFDD6E7AE2D1F517AA /* Shimmer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D670285677B2AD7A4C40866A4E8FE6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EFFC41862BB245DEA49FB50794ABFE /* GBFlatButton-dummy.m in Sources */,
+				5FAF8B00F348ADF5C1A5C25CB5A97401 /* GBFlatButton.m in Sources */,
+				1E6E0C4226BCB68DAC36641BBCA1BDBA /* GBFlatSelectableButton.m in Sources */,
+				FF85DCF3D02BCDBEBAFD0F840583BE9A /* UIColor+GBFlatButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06A6A7B3E78C9B6F551FCD227B072B0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBFlatButton;
+			target = 50543DB8DD0E19357856AC646C42B3D5 /* GBFlatButton */;
+			targetProxy = 536FA32D5503168AE71ECBB753BDE340 /* PBXContainerItemProxy */;
+		};
+		94EB1C0E528A42E8AEDA1F5FA8070807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Shimmer;
+			target = 84EC38F663F5943E8292860D873C5A88 /* Shimmer */;
+			targetProxy = 9A0DEF2B629124B8652871135469ED46 /* PBXContainerItemProxy */;
+		};
+		F3C4CDF04B544E90CFB9AC1034534C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZHPopupView;
+			target = F3A2BB295ECC19FCD27BAE8E645C3E1B /* ZHPopupView */;
+			targetProxy = 175DAD85CAA99411EC87224887C946B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0F4E1B9688E0274990B63D0DD8D54BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 943E29C45A37F901A53DADE60D28A7EE /* Pods-GHKFont.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GHKFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHKFont/Pods-GHKFont.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GHKFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C5440A1ED19E51543527E0A5EAF75AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44983BF8D74D8FE15611ABC22079BED /* Pods-GHKFont.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GHKFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHKFont/Pods-GHKFont.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GHKFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2371FC246BDAAD3B5EFA2CA22A066C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B443276CF9CA8BC9C7F75D332A5AA59 /* ZHPopupView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZHPopupView/ZHPopupView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZHPopupView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZHPopupView/ZHPopupView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZHPopupView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		349901D129730E5586E450AED8CF7440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B5555A117A15ACD8F771A98A10B863 /* Shimmer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Shimmer/Shimmer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Shimmer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Shimmer/Shimmer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Shimmer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44E1C996AD9FC57316DDB6166DDDF805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80FDB6144AA02FB01D60EF16A1AD6F6 /* GBFlatButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GBFlatButton/GBFlatButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBFlatButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GBFlatButton/GBFlatButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GBFlatButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B1E4FFEA7A6E75BEEBEDC467E8D4472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD5248A3D997EB1787DA8A179253776 /* Pods-GHKFontUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GHKFontUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHKFontUITests/Pods-GHKFontUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GHKFontUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6231F9019787A0E538BB5F5E1E3B7763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F20FC106EA10F0A58D3394418A513FF /* Pods-GHKFontTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GHKFontTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHKFontTests/Pods-GHKFontTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GHKFontTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DBDF21A2A1DF99AB631E902003E2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B5555A117A15ACD8F771A98A10B863 /* Shimmer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Shimmer/Shimmer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Shimmer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Shimmer/Shimmer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Shimmer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7198FB580EFCAD62BD5005F91E03004F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E18EBFBBC34CB5CBF38B7E6B3EE983D /* Pods-GHKFontTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GHKFontTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHKFontTests/Pods-GHKFontTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GHKFontTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A11975622828A4024345C2A602F20916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80FDB6144AA02FB01D60EF16A1AD6F6 /* GBFlatButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GBFlatButton/GBFlatButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBFlatButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GBFlatButton/GBFlatButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GBFlatButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAE71EB095E0BD51BD7A87AEC953B8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA802425C8775FFF5D9AA36C938683FF /* Pods-GHKFontUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GHKFontUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHKFontUITests/Pods-GHKFontUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GHKFontUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE541E30E841F54C0C0C5F3F74938748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B443276CF9CA8BC9C7F75D332A5AA59 /* ZHPopupView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZHPopupView/ZHPopupView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZHPopupView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZHPopupView/ZHPopupView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZHPopupView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3136A396EDCFDB6BF31F34DAA2F4BE4B /* Build configuration list for PBXNativeTarget "Shimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBDF21A2A1DF99AB631E902003E2E90 /* Debug */,
+				349901D129730E5586E450AED8CF7440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A92D73FB65B81F3FFF940D9DF83B76 /* Build configuration list for PBXNativeTarget "Pods-GHKFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6231F9019787A0E538BB5F5E1E3B7763 /* Debug */,
+				7198FB580EFCAD62BD5005F91E03004F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42E7FB24CD93500EDBD10EE126B636C7 /* Build configuration list for PBXNativeTarget "Pods-GHKFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5440A1ED19E51543527E0A5EAF75AA /* Debug */,
+				0F4E1B9688E0274990B63D0DD8D54BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F2C89514F4D9D5C66392AACBA70878 /* Build configuration list for PBXNativeTarget "GBFlatButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11975622828A4024345C2A602F20916 /* Debug */,
+				44E1C996AD9FC57316DDB6166DDDF805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BE7BB092F041DB8F4EB957DE97E7F92 /* Build configuration list for PBXNativeTarget "ZHPopupView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2371FC246BDAAD3B5EFA2CA22A066C05 /* Debug */,
+				FE541E30E841F54C0C0C5F3F74938748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2A2DFCBF3CB894B12BAC0C1484DC6A /* Build configuration list for PBXNativeTarget "Pods-GHKFontUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE71EB095E0BD51BD7A87AEC953B8B7 /* Debug */,
+				5B1E4FFEA7A6E75BEEBEDC467E8D4472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

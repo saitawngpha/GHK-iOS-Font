@@ -1,0 +1,18 @@
+PODS:
+  - GBFlatButton (2.1.0)
+  - Shimmer (1.0.2)
+  - ZHPopupView (0.1.1)
+
+DEPENDENCIES:
+  - GBFlatButton
+  - Shimmer (~> 1.0)
+  - ZHPopupView
+
+SPEC CHECKSUMS:
+  GBFlatButton: cb6066c6d92a7d031f089d62408ce3c259bb8131
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  ZHPopupView: cb3bedde775803c2c51e3db05cdd07ac6efaaaeb
+
+PODFILE CHECKSUM: 5525546f9ebf83d0b6f5816150553e4a953e758a
+
+COCOAPODS: 1.1.1
