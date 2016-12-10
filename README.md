@@ -4,8 +4,8 @@ I just use objective-c to call mobileconfig from my server by url.
 
 #Demo ScreenShort
 ![demo](https://github.com/saitawngpha/GHK-iOS-Font/blob/master/screenshort/1.png)
-![demo](https://github.com/saitawngpha/GHK-iOS-Font/blob/master/screenshort/1.png)
-![demo](https://github.com/saitawngpha/GHK-iOS-Font/blob/master/screenshort/1.png)
+![demo](https://github.com/saitawngpha/GHK-iOS-Font/blob/master/screenshort/2.png)
+![demo](https://github.com/saitawngpha/GHK-iOS-Font/blob/master/screenshort/3.png)
 
 # Description
 This app is supported on both iPhone and iPad. Then, include with admob too.
