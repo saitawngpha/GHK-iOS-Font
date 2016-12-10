@@ -3,9 +3,9 @@ This is Great Hor Kham Font fon iOS device. You have to install through from int
 I just use objective-c to call mobileconfig from my server by url. 
 
 #Demo ScreenShort
-![demo](https://github.com/saitawngpha/screenshort/1.png)
-![demo](https://github.com/saitawngpha/screenshort/2.png)
-![demo](https://github.com/saitawngpha/screenshort/3.png)
+![demo](https://github.com/saitawngpha/GHK-iOS-Font/blob/master/screenshort/1.png)
+![demo](https://github.com/saitawngpha/GHK-iOS-Font/blob/master/screenshort/1.png)
+![demo](https://github.com/saitawngpha/GHK-iOS-Font/blob/master/screenshort/1.png)
 
 # Description
 This app is supported on both iPhone and iPad. Then, include with admob too.
